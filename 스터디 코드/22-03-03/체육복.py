@@ -1,3 +1,5 @@
+# url = 'https://programmers.co.kr/learn/courses/30/lessons/42862'
+
 def solution(n, lost, reserve):
     _reserve = [r for r in reserve if r not in lost] # 만약 잃어버려도 본인게 있으면 사용할 수 있음
     _lost = [l for l in lost if l not in reserve] # 잃어버려도 이미 한개 있어서 잃어버린게 아님
